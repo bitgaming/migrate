@@ -1,0 +1,61 @@
+hash: d4ddf5381ec6ac1488e4fb9f0e581fbaf19bcd94ebf554d847048348b425af75
+updated: 2017-10-23T17:31:18.938778144+08:00
+imports:
+- name: github.com/fatih/color
+  version: 570b54cabe6b8eb0bc2dfce68d964677d63b5260
+- name: github.com/gemnasium/migrate
+  version: 603c58f2c1d0882d7d5b24791e6e5af5ab392e44
+  subpackages:
+  - driver
+  - driver/bash
+  - driver/cassandra
+  - driver/crate
+  - driver/mysql
+  - driver/postgres
+  - driver/sqlite3
+  - file
+  - migrate
+  - migrate/direction
+  - pipe
+- name: github.com/go-sql-driver/mysql
+  version: a0583e0143b1624142adab07e0e97fe106d99561
+- name: github.com/gocql/gocql
+  version: 4d2d1ac71932f7c4a6c7feb0d654462e4116c58b
+  subpackages:
+  - internal/lru
+  - internal/murmur
+  - internal/streams
+- name: github.com/golang/snappy
+  version: 553a641470496b2327abcac10b36396bd98e45c9
+- name: github.com/hailocab/go-hostpool
+  version: e80d13ce29ede4452c43dea11e79b9bc8a15b478
+- name: github.com/herenow/go-crate
+  version: f771b99e5fa44fcbe9c6b2ac69f9377bb88e5c24
+- name: github.com/jmoiron/sqlx
+  version: 3379e5993990b1f927fc8db926485e6f6becf2d2
+  subpackages:
+  - reflectx
+- name: github.com/lib/pq
+  version: b609790bd85edf8e9ab7e0f8912750a786177bcf
+  subpackages:
+  - oid
+- name: github.com/mattn/go-colorable
+  version: 5411d3eea5978e6cdc258b30de592b60df6aba96
+  repo: https://github.com/mattn/go-colorable
+- name: github.com/mattn/go-isatty
+  version: 57fdcb988a5c543893cc61bce354a6e24ab70022
+  repo: https://github.com/mattn/go-isatty
+- name: github.com/mattn/go-sqlite3
+  version: 5160b48509cf5c877bc22c11c373f8c7738cdb38
+- name: golang.org/x/net
+  version: a6577fac2d73be281a500b310739095313165611
+  subpackages:
+  - context
+- name: golang.org/x/sys
+  version: e24f485414aeafb646f6fca458b0bf869c0880a1
+  repo: https://go.googlesource.com/sys
+  subpackages:
+  - unix
+- name: gopkg.in/inf.v0
+  version: 3887ee99ecf07df5b447e9b00d9c0b2adaa9f3e4
+testImports: []

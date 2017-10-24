@@ -1,0 +1,28 @@
+package: github.com/bitgaming/migrate
+import:
+- package: github.com/fatih/color
+  version: ^1.5.0
+- package: github.com/gemnasium/migrate
+  version: ^1.4.1
+  subpackages:
+  - driver
+  - driver/bash
+  - driver/cassandra
+  - driver/crate
+  - driver/mysql
+  - driver/postgres
+  - driver/sqlite3
+  - file
+  - migrate
+  - migrate/direction
+  - pipe
+- package: github.com/go-sql-driver/mysql
+  version: ^1.3.0
+- package: github.com/gocql/gocql
+  version: 4d2d1ac71932f7c4a6c7feb0d654462e4116c58b
+- package: github.com/herenow/go-crate
+  version: ^0.1.0
+- package: github.com/jmoiron/sqlx
+- package: github.com/lib/pq
+- package: github.com/mattn/go-sqlite3
+  version: ^1.3.0
